@@ -6,9 +6,9 @@
 
 ## Форматы выгрузки данных
 
-[TXT](data/txt/toxic-repos.txt)
-
 [JSON](data/json/toxic-repos.json)
+
+[CSV](data/csv/toxic-repos.csv)
 
 [SQLite](data/sqlite/toxic-repos.sqlite3)
 
