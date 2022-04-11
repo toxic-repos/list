@@ -1,22 +1,38 @@
-# Выгрузка списка "токсичных" репозиториев в различных форматах
+# toxic-repos
 
-## Как с нами связаться
+### We are against discrediting open source software
 
-[:link: Наш сайт](https://toxic-repos.ru/) | [:speech_balloon: Наш Телеграм чат](https://t.me/toxic_repos) | [:email: Наша почта](info@toxic-repos.ru)
+## What is this?
 
-## Форматы выгрузки данных
+Recently, cases of adding code of varying degrees of danger to popular Open Source projects have become more frequent.
+This can pose a threat to people, and also undermines the credibility of the Open Source community and Open Source as such.
 
-[JSON](data/json/toxic-repos.json)
+[:link: Web site](https://toxic-repos.ru/) | [:speech_balloon: Telegram chat](https://t.me/toxic_repos) | [:email: E-mail](info@toxic-repos.ru)
 
-[CSV](data/csv/toxic-repos.csv)
+## Statistics
 
-[SQLite](data/sqlite/toxic-repos.sqlite3)
+Records in the database: 351
+> At the moment, the most up-to-date list is on our website. The list in this repository is updated with a slight delay.
 
-## Рекомендации
+[CHANGELOG](CHANGELOG.md)
 
-- Изоляция сборки в контейнерах, в том числе и для промежуточных сборок на машинах разработчиков.
-- Форки всех библиотек (по возможности) и контейнеров к себе.
-- Зеркалирование репозиториев пакетов.
-- Включение в CI как минимум поиска по ключевым словам, UTF символам с изображением украинского флага и сравнение списка файлов с вайтлистом.
-- Ресерч по инструментам анализа кода.
-- Отправка репорта по [инструкции](HOW-TO-REPORT.md)
+## Additionally
+
+[CSV](data/csv/toxic-repos.csv) | [JSON](data/json/toxic-repos.json) | [SQLite](data/sqlite/toxic-repos.sqlite3)
+
+## Recommendations
+
+- Assembly isolation in containers, including for intermediate assemblies on developers' machines.
+- Forks all libraries (if possible) and containers to yourself.
+- Mirroring package repositories.
+- Inclusion in CI of at least search by keywords, UTF characters with the image of the Ukrainian flag and comparison of the list of files with the whitelist.
+- Research on code analysis tools.
+- Sending a report according to [instructions](HOW-TO-REPORT.md)
+
+## Have an idea for improvement?
+
+- You can write to our [Telegram chat](https://t.me/toxic_repos)
+- You can write to us at info@toxic-repos.ru
+- Submit your pull reguest;
+- Create [issue](https://github.com/stravnik/toxic-repos/issues/new);
+- Start [discussion](https://github.com/stravnik/toxic-repos/discussions/new).

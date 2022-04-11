@@ -148,6 +148,30 @@ datetime,problem_type,name,commit_link,description
 
 2022-04-08 11:06:54,hostile_actions,Synology,https://synology.com/,"При запросе в тех.поддержку Synology, автоматически тикет падает в архив с ответом В связи с последними событиями Synology объявила о временной приостановке поставок всех продуктов и предоставлении технической поддержки любым юридическим и физическим лицам в Российской Федерации и Республике Беларусь. Если в аккаунте выбрать Казахстан, то через время отвечают со скриншотом Dear customer, we are sorry to inform you, that we need to close your technical support request. Due to European Union sanctions, Synology subsidiaries within European Union are temporarily unable to provide support for our products and customers, located in russia and belarus. Please reffer entire EU sanction description attached. Please find here the official Knowldege Center: https://kb.synology.com/ Knowledge Center provides description for all functions and help for most common topics. Please do not answer to this message, as we are unable to send you any further reply. Best Regards Synology GmbH Technical Support"
 
+2022-04-11 10:28:33,hostile_actions,Norton Security,https://norton.com/,"Отключили обновления. При попытке обновления ошибок нет, но антивирус всё-равно предупреждает об устаревших базах"
+
+2022-04-11 10:28:33,hostile_actions,Host-tracker,https://www.host-tracker.com/ru/,"Сервис распределенного мониторинга и оповещений. Отказали в обслуживании всем пользователям из России, разослали письма с лозунгами"
+
+2022-04-11 10:28:33,hostile_actions,Coursera,https://www.coursera.org/,"Отказали в платных услугах всем пользователям из России, письмо с лозунгами в поддержку Украины"
+
+2022-04-11 10:28:33,hostile_actions,NewRelic,https://newrelic.com,"Отказали в обслуживании пользователям из России, игнор обращений в техподдержку при попытке решить этот вопрос"
+
+2022-04-11 10:28:33,hostile_actions,Sparkpost (рассылка email),Sparkpost.com,Удалили аккаунт без объявления причин и не дали скачать данные
+
+2022-04-11 10:28:33,hostile_actions,Ubuntu,https://ubuntu.com/blog/canonical-standing-with-ukraine,"Canonical направила уведомление о прекращении поддержки, профессиональных услуг и партнерских отношений с российскими предприятиями. «Мы направим любой российский доход от подписки на такое обслуживание на украинские гуманитарные цели»"
+
+2022-04-11 10:28:33,hostile_actions,Grammarly,grammarly.com,Приостановили обслуживание в РФ и Белоруссии. Для россиких IP отображают страницу-заглушку с пропогандой. Перекрасили логотип в цвета украинского флага
+
+2022-04-11 10:28:33,hostile_actions,stalniy/casl,https://github.com/stalniy/casl/commit/b13c3de252b8412079b4030ff73309d65713c8d2,Authorization JS library. Полит лозунг в документации и на сайте https://casl.js.org/v5/en/
+
+2022-04-11 10:28:33,hostile_actions,SilentButeo2/webgrabplus-siteinipack,https://github.com/SilentButeo2/webgrabplus-siteinipack/commit/1256512408bb07bf36ac90a4e35400d6c5dae4ab,Софт для парсинга сайтов с ТВ программами от голландца Jan van Straaten. Удалил поддержку зоны ru (несколько коммитов). http://www.webgrabplus.com/content/stop-war-no-russia-support
+
+2022-04-11 10:28:33,hostile_actions,MenuetOS,http://menuetos.net/,Зачем-то добавили флажок Украины в шапку сайта: https://imgbox.com/DdwDbvR7
+
+2022-04-11 10:28:33,hostile_actions,iFixit,https://ru.ifixit.com/,Перекрасили логотип в цвета украинского флага.
+
+2022-04-11 10:28:33,hostile_actions,softportal.com,https://www.softportal.com/img/green/head/sp_lenta2.jpg,добавили синюю и желтую ленточки
+
 2022-03-29 15:48:48,ip_block,Игра Top Eleven от nordeus,eu.nordeus.topeleven.android,"Удалили для РФ свои приложения в Google Play и Apple Store + заблокировали навсегда учетные записи всем, у кого была выбрана страна Россия. Я играл с 2019 года."
 
 2022-03-29 15:48:48,ip_block,Grafana,https://dl.grafana.com/enterprise/release/grafana-enterprise-8.4.4.windows-amd64.msi,"При попытке скачать бинарники Grafa появляется ошибка ""Sorry, our service is currently not available in your region"""
@@ -296,6 +320,14 @@ https://github.com/Cisco-Talos/clamav/issues/500"
 
 2022-04-08 11:06:54,ip_block,DUO Security Multi-Factor Authentication,https://dl.duosecurity.com,Блокировка скачивания релизов open source компонента duo_unix
 
+2022-04-09 09:14:51,ip_block,bufbuild/buf,https://buf.build/,"Политические лозунги + Блокировка доступа. С росcийского IP - 403. Через зарубежное ВПН - всё ок. Так же, без, ВПН больше не работает сборка proto. https://github.com/bufbuild/buf"
+
+2022-04-11 10:28:33,ip_block,Terraform,https://www.terraform.io/,"Нет доступа к Terraform плагинам с белорусского IP, 403 Not Allowed, через VPN работает"
+
+2022-04-11 10:28:33,ip_block,Go (Golang),https://golang.org/,"Не открывается на территории ДНР, в РФ - открывается"
+
+2022-04-11 10:28:33,ip_block,Leaflet,https://leafletjs.com/,JavaScript library for interactive maps. Заблокировали доступ к сайту из РФ.
+
 2022-03-29 15:48:48,malware,Onefetch,https://github.com/o2sh/onefetch,"При установке программы подменяет библиотеку libgcc_s.so.1, система перестает отвечать и после перезагрузки система выдает ошибку kernel panic. Проблема не подтверждена. Вредоносных коммитов не обнаружено."
 
 2022-03-29 15:48:48,malware,Yaffle/EventSource,https://github.com/Yaffle/EventSource/commit/de137927e13d8afac153d2485152ccec48948a7a,https://github.com/Yaffle/EventSource/issues/199
@@ -307,14 +339,6 @@ https://github.com/Cisco-Talos/clamav/issues/500"
 2022-03-29 15:48:48,malware,es5-ext,https://github.com/medikoo/es5-ext/commit/28de285ed433b45113f01e4ce7c74e9a356b2af2,"Коллеги, обращаем внимание, что популярная библиотека https://www.npmjs.com/package/es5-ext которая не обновлялась до этого 2 года начала получать регулярные обновления которые содержат как негативную пропаганду, так и код по таймзоне увеличивающий утилиза"
 
 2022-03-29 15:48:48,malware,Parad1seBomb,https://github.com/K1ngSoul/Parad1seBomb,SMS Bomber for Russia and Ukraine
-
-2022-04-08 10:47:53,malware,draw.io (for Confluence),https://github.com/jgraph/drawio/commit/6a5dd8d3715f6aba50f48041cdc699cbd9af91cf#diff-c6f752c951f4e1c585c6e8cab1ffbc98d580eb9263352ce151597273a64e2435,"draw.io is a configurable diagramming/whiteboarding visualization application. draw.io is owned and developed by JGraph Ltd, a UK based software company.
-
-В комьюнити Atlassian сообщили, что draw.io на сервере Confluence удаляет контент и в инфо показывает ""Нет войне"". На маркетплейсе Atlassian указано, что в версии 17.1.4 был некий security fix, исправляющий ошибку в 17.1.3 (без деталей). Проблем с версией 17.1.4 нет, по 17.1.5 пока нет подтверждений.
-
-Лозунги убрали: https://github.com/jgraph/drawio/compare/v17.1.5...v17.2.2
-
-Исследуем убрали ли стирание данных"
 
 2022-03-29 15:48:48,political_slogans,RedisDesktopManager,https://github.com/uglide/RedisDesktopManager/commit/8b2b357d9d233100f84a69f81ed22b8caa04fa22,как бы чего еще туда не заложили вредного
 
@@ -349,8 +373,6 @@ https://github.com/Cisco-Talos/clamav/issues/500"
 2022-03-29 15:48:48,political_slogans,MicroSIP,https://www.microsip.org/,"Лозунги на сайте, возможно какой-то недокументированный функционал в новых версиях"
 
 2022-03-29 15:48:48,political_slogans,Mate,https://prnt.sc/oVezpycty94G,Плагин переводчика для браузера Firefox. Теперь показывает политические лозунги.
-
-2022-03-29 15:48:48,political_slogans,draw.io,https://github.com/jgraph/drawio/commit/6a5dd8d3715f6aba50f48041cdc699cbd9af91cf#diff-c6f752c951f4e1c585c6e8cab1ffbc98d580eb9263,"Пошел слух про то что еще и вайпают данные файла при сохранении, однако подтверждения не нашел. Возможно зарыто где-то глубоко. ""В русской локали последней версии вместо """"О сервисе"""" пропаганда"""
 
 2022-03-29 15:48:48,political_slogans,selenium,https://www.selenium.dev/,Selenium Supports Ukraine
 
@@ -693,4 +715,10 @@ https://github.com/Cisco-Talos/clamav/issues/500"
 2022-04-08 11:14:13,political_slogans,imgur,imgur.com,Перекрасили логотип в цвета украинского флага
 
 2022-04-08 12:08:24,political_slogans,imageshack,https://imageshack.com/,Лозунги при встраивании изображение в код.
+
+2022-04-09 09:10:30,political_slogans,yyyar/gobetween,https://github.com/yyyar/gobetween,Политические лозунги
+
+2022-04-09 09:10:30,political_slogans,Canva,https://www.canva.com/newsroom/news/supporting-ukraine/,Политические лозунги
+
+2022-04-09 09:10:30,political_slogans,koreader/koreader,https://github.com/koreader/koreader/releases/tag/v2022.02,flag Ukraine with icon app
 
