@@ -1,5 +1,9 @@
 # toxic-repos
 
+---
+> Now you can send information to be added to the list via telegram bot! [DarkSider BOT](https://t.me/darksider_bot)
+---
+
 ### We are against discrediting open source software
 
 ## What is this?
@@ -7,12 +11,11 @@
 Recently, cases of adding code of varying degrees of danger to popular Open Source projects have become more frequent.
 This can pose a threat to people, and also undermines the credibility of the Open Source community and Open Source as such.
 
-[:link: Web site](https://toxic-repos.ru/?utm_source=github&utm_medium=organization&utm_campaign=md) | [:speech_balloon: Telegram chat](https://t.me/toxic_repos) | [:email: E-mail](info@toxic-repos.ru) | [:twitter: Twitter](https://twitter.com/ZStravnik)
+[:link: Web site](https://toxic-repos.ru/?utm_source=github&utm_medium=repository&utm_campaign=md) | [:speech_balloon: Telegram channel](https://t.me/toxic_repos) | [:speech_balloon: Telegram BOT](https://t.me/darksider_bot) | [:email: E-mail](info@toxic-repos.ru) | [:bird: Twitter](https://twitter.com/ZStravnik)
 
 ## Statistics
 
-Records in the database: 356
-> At the moment, the most up-to-date list is on our website. The list in this repository is updated with a slight delay.
+Records in the database: 391
 
 [CHANGELOG](CHANGELOG.md)
 

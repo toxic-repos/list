@@ -1,3 +1,75 @@
+# 21.04.22
+[add]
++ MaxMind GeoLite2
++ Laravel
++ Svelte.JS
+
+[delete]
+- VueJS
+
+# 20.04.22
+[add]
++ Stripe
++ CherryTree
++ Archi
++ VueJS
++ CCleaner
++ SAP
++ SSL.com
++ KDAB the Qt
+
+[delete]
+- caves.ru
+
+# 19.04.22
+[delete]
+- Tasmota
+- Миландр (milandr)
+- jgraph/drawio-desktop
+- tweedge/ru-ok
+
+# 18.04.22
+[add]
++ burgua/yandex_search_in_chrome
++ Terraform
++ splunk
++ Udemy (онлайн курсы)
++ ActiveState
++ pagerduty
++ Mattermost
++ Weblium
++ depesz.com
++ Syllable (OS site)
++ Auth0
++ MahApps/MahApps.Metro
++ jech/galene
++ composer/packagist
++ Macintosh Repository
++ Parallels
++ Hacking with Swift
++ The Web Dev
++ .NET Fiddle
++ AppVeyor
++ Freepik
++ Uninstall Tool
+
+# 16.04.22
+[add]
++ soketi/soketi
++ soketi.app
+
+# 15.04.22
+[add]
++ wxwidgets cross platform gui library
++ MinGW Minimalist gnu for winfows
++ Vintage programmable calculators
++ PortableApps/SuiteUkraine
+
+# 14.04.22
+[add]
++ AssemblyScript/assemblyscript
++ AlDente
+
 # 13.04.22
 [add]
 + azjezz/psl
