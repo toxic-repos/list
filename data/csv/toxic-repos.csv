@@ -36,6 +36,7 @@ id,datetime,problem_type,name,commit_link,description
 55,2022-03-29 15:48:48,ddos,vnestoruk/BAN-dera,https://github.com/vnestoruk/ban-dera,"Сервис, который ддосит сайты из списка с компьютеров пользователей, у кого открыта вкладка с сайтом. Я думаю, стоит подробно описать как жаловаться на авторов подобных дистрибутивов или патчей."
 349,2022-04-02 10:36:34,ddos,curlpump,https://github.com/yellowsummer1972/curlpump/,"При запуске отправляет многочисленные запросы на сайты из списка (там не только госсайты, но и российские компании)."
 350,2022-04-02 10:36:34,ddos,MHDDoS_proxy,https://github.com/SlavaUkraineSince1991/DDoS-for-all/blob/main/MHDDoS_proxy.md,Используется украиной для DDoS атак на российские коммерческие и государственные компании
+467,2022-04-29 09:34:00,ddos,Targets for auto_mhddos_alexnest,https://github.com/alexnest-ua/targets/,Список российских ресурсов для DDoS атак
 6,2022-03-29 15:48:48,hostile_actions,Глянец,https://drupal.ru/glyanec-scam,"Компания «Глянец» встраивает на сайты клиентов вредоносный код для обхода защиты и получения полного доступа к сайтам. Они называют это «сервисным входом». 26 февраля руководитель «Глянец» Заика Анатолий в публичном телеграм-чате заявил, что российские сай"
 20,2022-03-29 15:48:48,hostile_actions,ch33r10/SunflowerCon,https://github.com/ch33r10/SunflowerCon/commit/424e61c74463949dd43a62435ac8e332f4ba5a5f,Страница по координации и сбору IT - разведданных нацеленных на атаки инфраструктуры РФ
 23,2022-03-29 15:48:48,hostile_actions,curated-intel/Ukraine-Cyber-Operations,https://github.com/curated-intel/Ukraine-Cyber-Operations,Страница кураторов IT-разведок для координации информации необходимой для проведения хакерских атак и сбора разведданных о разведке РФ
@@ -108,6 +109,7 @@ Dear GeoLite User,
 In order to maintain compliance with US sanctions against certain Russian entities, MaxMind is exercising its right to terminate your free access to the GeoLite2 Databases or Web Services per Section 10.(b) of the GeoLite2 End User License Agreement.
 
 Your account will no longer have access to the GeoLite2 Databases or Web Services on Monday, April 25, 2022."
+458,2022-04-25 13:02:00,hostle_action,YetiForce CRM,https://github.com/YetiForceCompany/YetiForceCRM/discussions/15786,Дали на халяву все платные фичи компаниям из Украины. Обещали в последующих обновлениях (версии выше 6.3) запретить использование компаниям из РФ.
 57,2022-03-29 15:48:48,ip_block,Игра Top Eleven от nordeus,eu.nordeus.topeleven.android,"Удалили для РФ свои приложения в Google Play и Apple Store + заблокировали навсегда учетные записи всем, у кого была выбрана страна Россия. Я играл с 2019 года."
 58,2022-03-29 15:48:48,ip_block,Grafana,https://dl.grafana.com/enterprise/release/grafana-enterprise-8.4.4.windows-amd64.msi,"При попытке скачать бинарники Grafa появляется ошибка ""Sorry, our service is currently not available in your region"""
 59,2022-03-29 15:48:48,ip_block,checkmk,https://checkmk.com/,Закрыт доступ с российских IP
@@ -198,6 +200,9 @@ https://github.com/Cisco-Talos/clamav/issues/500"
 451,2022-04-20 11:16:00,ip_block,KDAB the Qt,https://www.kdab.com/about/,Консалтинговая фирма по C++ and OpenGL. Заблокирован доступ к своему сайту со статьями про С++ и Qt
 455,2022-04-22 10:05:00,ip_block,MiTeC,http://www.mitec.cz/,"При подключении с российских IP перенаправляют на сайт со страшными фото. Через VPN нормально, в заголовке пропаганда."
 456,2022-04-22 10:05:00,ip_block,Apiary,https://apiary.io/,Сервис для проектирования \ документирования API. Заблокирован доступ из РФ по IP.
+459,2022-04-25 13:02:00,ip_block,Certify The Web,https://certifytheweb.com/,"Блокировка по IP, через VPN открывается"
+460,2022-04-25 13:02:00,ip_block,Heroku,https://heroku.com/,"При попытке войти в аккаунт с Российского IP ошибка. При попытке создать новый аккаунт c любой страной сообщение: ""We do not aceept sign-ups from your country"" (проверяют по IP)"
+461,2022-04-25 13:02:00,ip_block,IBM Quantum Lab,quantum-computing.ibm.com,Веб-приложение для доступа к вычислениям на квантовых компьютерах от IBM заблокировало доступ с российских IP
 1,2022-03-29 15:48:48,malware,Onefetch,https://github.com/o2sh/onefetch,"При установке программы подменяет библиотеку libgcc_s.so.1, система перестает отвечать и после перезагрузки система выдает ошибку kernel panic. Проблема не подтверждена. Вредоносных коммитов не обнаружено."
 2,2022-03-29 15:48:48,malware,Yaffle/EventSource,https://github.com/Yaffle/EventSource/commit/de137927e13d8afac153d2485152ccec48948a7a,https://github.com/Yaffle/EventSource/issues/199
 9,2022-03-29 15:48:48,malware,node-ipc,https://github.com/RIAEvangelist/node-ipc/issues/233,https://github.com/RIAEvangelist/node-ipc/issues/233 В библиотеку node-ipc добавили шифровальщик для ip России и Белоруссии https://github.com/RIAEvangelist/node-ipc/blob/847047cf7f81ab08352038b2204f0e7633449580/dao/ssl-geospec.js Оно реально всю фс закиды
@@ -416,3 +421,12 @@ https://github.com/composer/packagist/pull/1270
 453,2022-04-21 09:37:00,political_slogans,Laravel,https://github.com/laravel/laravel.com/commit/d688711ef9642529bc93d49362b8bcdf87362cf1,Добавили политические лозунги на свой сайт. В когда самого framework пока вроде бы чисто.
 454,2022-04-21 09:37:00,political_slogans,Svelte.JS,https://github.com/sveltejs/sites/commit/ce0750bcfb8b50f67f84976c161fa4768a434647,Добавили на сайт https://svelte.dev/ баннер со ссылкой на сайт stopputin. В русской версии сайт https://ru.svelte.dev/ этот баннер стыдливо прячут
 457,2022-04-22 10:05:00,political_slogans,wxWidgets,https://github.com/wxWidgets/website/commit/e55c1d3498ab313093084671aa34aaaa9ce849be,Повесили флажок и добавили пропаганды на сайт
+463,2022-04-25 13:02:00,political_slogans,Selenide,https://github.com/selenide/selenide.github.io/commit/fa6c212ee609a6c93de066d7c0c4e42e1b7f454d,"UI tests in Java. Опубликовали лозунги в блоге продукта. Сбор денег для украинской армии.
+https://ru.selenide.org/2022/04/07/selenide-6.4.0/"
+464,2022-04-25 13:02:00,political_slogans,Robot Framework,https://github.com/robotframework/robotframework.github.com/commit/77592b828d6782421f585bb44b12de8f8680dcd4,Добавили украинский флаг в в название на robotframework.org
+465,2022-04-25 13:02:00,political_slogans,Worker (файловый менеджер),http://www.boomerangsworld.de/cms/worker/index.html,Фон сайта перекрашен в цвета украинского флага
+466,2022-04-29 09:34:00,political_slogans,CleanMyMac X,https://apps.apple.com/us/app/cleanmymac-x/id1339170533?mt=12,"Политические лозунги, логотип, сбор денег.
+Version 4.10.4
+A new category in the Uninstaller module — Suspicious — where CleanMyMac puts apps associated with or owned by Russian or Belarusian developers.
+Updated the Ukrainian theme and added an ability to switch it off in the Preferences."
+468,2022-04-29 09:34:00,political_slogans,Claws Mail,https://www.claws-mail.org/,"Ukraine flag with slogan ""no war"" at Claws Mail's homepage."

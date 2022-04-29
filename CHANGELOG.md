@@ -1,3 +1,23 @@
+# 29.04.22
+[add]
++ CleanMyMac X
++ alexnest-ua/targets/
++ Claws Mail
+
+[delete]
+- OpenCV
+
+# 25.04.22
+[add]
++ YetiForce CRM
++ Certify The Web
++ Heroku
++ IBM Quantum Lab
++ OpenCV
++ selenide/selenide.github.io
++ robotframework/robotframework.github.com
++ Worker (файловый менеджер)
+
 # 22.04.22
 [add]
 + MiTeC
