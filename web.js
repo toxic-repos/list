@@ -7957,7 +7957,7 @@ var $;
         }
         Source() {
             const obj = new this.$.$mol_link_source();
-            obj.uri = () => "https://github.com/nin-jin/toxic-repos";
+            obj.uri = () => "https://github.com/toxic-repos/list";
             return obj;
         }
         Lights() {
@@ -7983,7 +7983,7 @@ var $;
         }
         New() {
             const obj = new this.$.$mol_link();
-            obj.uri = () => "https://twitter.com/ZStravnik";
+            obj.uri = () => "https://twitter.com/ZeroBot_Dot";
             obj.hint = () => this.$.$mol_locale.text('$toxic_app_New_hint');
             obj.sub = () => [
                 this.News_icon()
