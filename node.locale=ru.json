@@ -1,4 +1,8 @@
 {
+	"$mol_lights_toggle_hint": "Переключить освещение",
+	"$mol_link_source_hint": "Исходные коды",
+	"$mol_search_Clear_hint": "Очистить",
+	"$mol_search_hint": "Поиск..",
 	"$toxic_app_Add_hint": "Добавить новую проблему",
 	"$toxic_app_Chat_hint": "Обсуждения",
 	"$toxic_app_Mail_hint": "Почта",
