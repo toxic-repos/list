@@ -1,3 +1,97 @@
+# 12.06.22
+[add]
++ TestComplete
++ Cobian Backup
++ SpeedTest
++ NI LabView
++ qBitTorrent forum
++ Bareos
++ Лурк
++ Remi's RPM repository
+
+[delete]
+- ScienceDirect
+
+# 31.05.22
+[add]
++ MongoDB
++ Studio 3T, Robo 3T
++ Weather Underground
++ Cisco Webex
++ Microsoft Dynamics 365 Community
++ AppVeyor CI
++ CipherSuite
++ ScienceDirect
++ Hiveon mining pool
++ SolidJS
+
+[delete]
+- codemag
+
+# 26.05.22
+[add]
++ Winbox (Snap пакет panaceya)
++ phppass (PHP)
++ ctx (python package)
++ E-katalog
++ SANS, Internet Storm Center
++ codemag.com
++ innoextract
++ MindForger
++ Fluffy Mods для RimWorld
++ Restream
+
+# 22.05.22
+[add]
++ Arx Libertatis
++ IceRaven Browser
++ parsec.app
+
+# 19.05.22
+[add]
++ Salesforce
++ nunomaduro/collision
+
+# 17.05.22
+[add]
++ Redminer for Android
++ GNU Guix
++ GitHub Enterprise Server
++ Zabbix
+
+# 16.05.22
+[add]
++ Wasabi Cloud Storage
++ printerprofi.ru
++ ESET
++ NUnit
++ Files (Windows file manager)
++ DeaDBeeF player
++ Friz-zy/awesome-linux-containers
++ Photopea.com
+[delete]
+- Scastie
+
+# 13.05.22
+[update]
+* Evolution CMS
+
+[add]
++ audiophilesoft.ru
++ Splashtop
++ NXP Semiconductors
++ Resonic Player
++ Tyrrrz/LightBulb
++ Zero Spam (for WordPress)
++ Asio4all
++ LameXP
++ Meta Open Source
++ The Movie Database (TMDB)
++ fbreader
++ Tyrrrz/DiscordChatExporter
++ ahrefs.com
++ t.me/cybersecs
+
 # 08.05.22
 [add]
 + SmartFix
