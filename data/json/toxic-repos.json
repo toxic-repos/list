@@ -616,6 +616,14 @@
         "description": "Внутри пакета скрипт, которые при запуске выплевывает окошко с украинской пропагандой, к winbox отношение не имеет, просто данный субъект упаковал в snap пакет winbox+wine, приложения даже не его, но агрессивная пропаганда внутри пакета присутствует, как и на его странице в git, сам пакет в Snap не убирают и не корректируют даже с учетом большого количества негативных отзывов (в т.ч. с нарушением работы сети), будьте внимательны."
     },
     {
+        "id": 578,
+        "datetime": "2022-06-28 14:47:00",
+        "problem_type": "hostile_action",
+        "name": "djinni",
+        "commit_link": "djinni.co",
+        "description": "заблокированы аккаунты из России, призывы переводить деньги и т. п."
+    },
+    {
         "id": 6,
         "datetime": "2022-03-29 15:48:48",
         "problem_type": "hostile_actions",
@@ -1918,6 +1926,62 @@
         "name": "Sysdig",
         "commit_link": "https://sysdig.com/",
         "description": "Доступ заблокирован из IP РФ, 403"
+    },
+    {
+        "id": 567,
+        "datetime": "2022-06-21 09:24:00",
+        "problem_type": "ip_block",
+        "name": "cgtrader.com",
+        "commit_link": "https://www.cgtrader.com",
+        "description": "не даёт качать объекты с российского IP, с VPN даёт.\r\nSERVICE NOT AVAILABLE. DUE TO LEGAL ISSUES OUR SERVICES ARE NOT AVAILABLE IN YOUR REGION."
+    },
+    {
+        "id": 568,
+        "datetime": "2022-06-21 09:24:00",
+        "problem_type": "ip_block",
+        "name": "Microsoft",
+        "commit_link": "https://www.microsoft.com/en-us/download",
+        "description": "Блокировка скачивания дистрибутивов с российских IP"
+    },
+    {
+        "id": 570,
+        "datetime": "2022-06-21 09:24:00",
+        "problem_type": "ip_block",
+        "name": "devart.com",
+        "commit_link": "devart.com",
+        "description": "не открывается. В поддержке пообещали отозвать активные подписки и прекратить любую поддержку людям из России и Белоруссии."
+    },
+    {
+        "id": 571,
+        "datetime": "2022-06-28 14:47:00",
+        "problem_type": "ip_block",
+        "name": "LiveCareer",
+        "commit_link": "https://www.livecareer.com/",
+        "description": "Сайт с шаблонами резюме. Заблокировали доступ из РФ"
+    },
+    {
+        "id": 572,
+        "datetime": "2022-06-28 14:47:00",
+        "problem_type": "ip_block",
+        "name": "3DMark (в магазине Steam)",
+        "commit_link": "https://store.steampowered.com/app/223850/3DMark/",
+        "description": "Программа 3Dmark в мае стала недоступна в магазине Steam. Заявлений никаких не было, ни в стиме, ни на сайте https://benchmarks.ul.com/3dmark (авторы программы из Финляндии)."
+    },
+    {
+        "id": 573,
+        "datetime": "2022-06-28 14:47:00",
+        "problem_type": "ip_block",
+        "name": "GTMetrix",
+        "commit_link": "https://gtmetrix.com/",
+        "description": "Вместо сайта для тестирования производительности сайтов выводится сообщение GTmetrix is unavailable in this region"
+    },
+    {
+        "id": 574,
+        "datetime": "2022-06-28 14:47:00",
+        "problem_type": "ip_block",
+        "name": "Gofile",
+        "commit_link": "https://gofile.io/",
+        "description": "Бесплатный обмен файлами. Блокируется доступ из РФ. С VPN все работает нормально."
     },
     {
         "id": 1,
@@ -3990,5 +4054,37 @@
         "name": "World Air Quality Index",
         "commit_link": "aqicn.org",
         "description": "Air Pollution map. На сайте с некоторой задержкой отображается alert-диалог с пропагандой. Похоже владельцы сайта стали жертвой библиотеки EventSource polyfill. Напишите пожалуйста кто-нибудь разработчикам.\r\nThe library EventSource displays political slogans on your site. To do this, it uses the alert() function with a 15 sec timeout if the user's time zone is Russian. After that, the library opens a political/malicious website in a pop-up window. https://github.com/Yaffle/EventSource/issues/199"
+    },
+    {
+        "id": 569,
+        "datetime": "2022-06-21 09:24:00",
+        "problem_type": "political_slogans",
+        "name": "jtx Board",
+        "commit_link": "https://jtx.techbee.at",
+        "description": "Политические лозунги в About приложения"
+    },
+    {
+        "id": 575,
+        "datetime": "2022-06-28 14:47:00",
+        "problem_type": "political_slogans",
+        "name": "ArduinoJSON",
+        "commit_link": "https://github.com/bblanchon",
+        "description": "Библиотека для (де)сериализации JSON на Arduino (так же работает и под ESP-IDF). Перекрасили лого в цвета украинского флага на сайте https://arduinojson.org/"
+    },
+    {
+        "id": 576,
+        "datetime": "2022-06-28 14:47:00",
+        "problem_type": "political_slogans",
+        "name": "PlatformIO",
+        "commit_link": "https://platformio.org/",
+        "description": "PlatformIO - IDE для Embedded систем. Добавили внизу баннер в поддержку украины со ссылкой на твит и донаты"
+    },
+    {
+        "id": 577,
+        "datetime": "2022-06-28 14:47:00",
+        "problem_type": "political_slogans",
+        "name": "Depositphotos",
+        "commit_link": "depositphotos.com",
+        "description": "Баннер в заголовке. Сам сервис https://ru.depositphotos.com/upscaler.html и загрузка фото пока работают"
     }
 ]
